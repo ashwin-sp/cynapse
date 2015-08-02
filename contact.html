@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width"/>
+<title>Contact</title>
+<!-- CSS Files-->
+<link rel="stylesheet" href="stylesheets/style.css">
+
+<link rel="stylesheet" href="stylesheets/skins/blue.css">
+<!-- skin color -->
+<link rel="stylesheet" href="stylesheets/responsive.css">
+<link rel="stylesheet" href="stylesheets/ca.css">
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- HIDDEN PANEL 
+================================================== -->
+<div id="panel">
+	<div class="row">
+		<div class="twelve columns">
+			<img src="images/info.png" class="pics" alt="info">
+			<div class="infotext">
+Thank you for visiting!
+			</div>
+		</div>
+	</div>
+</div>
+<p class="slide">
+	<a href="#" class="btn-slide"></a>
+</p>
+<!-- HEADER
+================================================== -->
+<div class="row">
+	<div class="headerlogo four columns">
+		<div class="logo">
+			<a href="index.html">
+			<h4>Cynapse</h4>
+			</a>
+		</div>
+	</div>
+	<div class="headermenu eight columns noleftmarg">
+		<nav id="nav-wrap">
+		<ul id="main-menu" class="nav-bar sf-menu ca-menu1">
+			<li class="current ca-main1">
+			<a href="index.html">Home</a>
+			
+			</li>
+			<li class="ca-main1">
+			<a href="register.html">Register</a>
+		
+			</li>
+			<li class="ca-main1">
+			<a href="aboutcynapse.html">About Cynapse</a>
+			
+			</li>
+			<li class="ca-main1">
+			<a href="contact.html">Contact Us</a>
+			
+			</li>
+			
+		</ul>
+		</nav>
+	</div>
+</div>
+<div class="clear">
+</div>
+<!-- SUBHEADER
+================================================== -->
+<div id="subheader">
+	<div class="row">
+		<div class="twelve columns">
+			<p class="left">
+				 CONTACT US
+			</p>
+			<p class="right">
+				 Get in touch today!
+			</p>
+		</div>
+	</div>
+</div>
+<div class="hr">
+</div>
+<!-- CONTENT 
+================================================== -->
+<div class="row">
+    <!-- GOOGLE MAP IFRAME -->
+	<div class="twelve columns">
+		<div id="googleMap" style="width:1000px;height:380px;"></div>
+
+	</div>
+</div>
+<div class="row">
+	<!-- CONTACT FORM -->
+	<div class="twelve columns">
+		<div class="wrapcontact">
+			<h5>SEND US A MESSAGE</h5>
+			<div class="done">
+				<div class="alert-box success">
+				 Message has been sent! <a href="" class="close">x</a>
+				</div>
+			</div>			
+				<form method="post" action="contact.php" id="contactform">
+				<div class="form">
+				    <div class="six columns noleftmargin">
+					<label>Name</label>
+					<input type="text" name="name" class="smoothborder" placeholder="Your name *"/>
+					</div>
+					<div class="six columns">
+					<label>E-mail address</label>
+					<input type="text" name="email" class="smoothborder" placeholder="Your e-mail address *"/>
+					</div>
+					<label>Message</label>
+					<textarea name="comment" class="smoothborder ctextarea" rows="14" placeholder="Message, feedback, comments *"></textarea>
+					<input type="submit" id="submit" class="readmore" value="Submit">
+				</div>
+				</form>			
+		</div>
+	</div>
+												
+</div>
+<div class="hr">
+</div>
+
+<!-- FOOOTER 
+================================================== -->
+
+
+<!-- JAVASCRIPTS 
+================================================== -->
+<!-- Javascript files placed here for faster loading -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(13.356901,80.142120),
+    zoom:16,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script src="javascripts/foundation.min.js"></script>
+<script src="javascripts/formvalidation.js"></script>
+<script src="javascripts/jquery.cycle.js"></script>
+<script src="javascripts/app.js"></script>
+<script src="javascripts/modernizr.foundation.js"></script>
+<script src="javascripts/slidepanel.js"></script>
+<script src="javascripts/scrolltotop.js"></script>
+<script src="javascripts/hoverIntent.js"></script>
+<script src="javascripts/superfish.js"></script>
+<script src="javascripts/responsivemenu.js"></script>
+<script src="javascripts/jquery.tweet.js"></script>
+<script src="javascripts/twitterusername.js"></script>
+
+</body>
+</html>
