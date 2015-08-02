@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Paper</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Ashwin">
+	<meta name="description" content="Details about the paper presentation"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" href="stylesheets/ca.css">
+      <link rel="stylesheet" href="stylesheets/responsive.css">
+      
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+		</div><!-- end logo -->
+		<div id="menu_icon"></div>
+		<nav>
+			<ul class="ca-menu1">
+				<li class="ca-main1"><a href="Mainpage.html">Home</a></li>
+				<li><a href="#topics">Topics</a></li>
+				<li><a href="#rules">Rules</a></li>
+				<li><a href="#team">The Team</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav><!-- end navigation menu -->
+
+		<div class="footer clearfix">
+						<div class="rights">
+				<p>Copyright Â© Cynapse 2k15.</p>
+				
+			</div><!-- end rights -->
+		</div ><!-- end footer -->
+	</header><!-- end header -->
+
+	<section class="main clearfix">
+
+		<section class="top">	
+			<div class="wrapper content_header clearfix">
+				<div class="work_nav">
+							
+					<ul class="btn clearfix">
+						<li><a href="#" class="previous" data-title="Previous"></a></li>
+						<li><a href="Mainpage.html" class="grid" data-title="Portfolio"></a></li>
+						<li><a href="#" class="next" data-title="Next"></a></li>
+					</ul>							
+					
+				</div><!-- end work_nav -->
+				<h1 class="title"> Paper Presentation</h1>
+			</div>		
+		</section><!-- end top -->
+
+		<section class="wrapper">
+			<div class="content">
+                     <h2><i>A PEN IS MIGHTIER THAN THE SWORD AND A WORD IS MIGHTIER THAN THE PEN</i></h2>
+				<p align="justify">An event which is almost inevitable in any symposium which is organised by any college or university. It is tough to imagine a symposium without the traditional paper presentation event. Sticking to the traditional roots, we filter the best papers based upon the abstracts we receive and then we give a chance for the aspiring minds to express their innovative ideas on the big stage.</p>
+		
+				<p align="justify"> Last year, we received  a great response for this event and this year we will ensure that the response will be on the lines of last year, if not better than that. </p>
+
+				<h2 align="center"><i><a name="topics">TOPICS</a></i></h2>
+				<p align="justify">The idea must be related to but not limited to the following:</p>
+                     <ul>
+                     
+                     <li>
+                         <h3> Applications of Mobile Development</h3>                </li>
+                     <li>
+                         <h3> Artificial Intelligence </h3>                </li>
+                     <li>
+                         <h3> Augmented Reality</h3>                </li>  
+                     <li>
+                         <h3> Cloud Computing </h3>                </li> 
+                     <li>
+                         <h3> Computer Viruses </h3>                </li>                      
+                     <li>
+                         <h3> Cryptography and Network Security </h3>                </li>  
+                     <li>
+                         <h3> Data Mining and Warehousing </h3>                </li>
+                     <li>
+                         <h3> Embedded Systems </h3>                </li>  
+                     <li>
+                         <h3> Global Positioning System </h3>                </li>  
+                     <li>
+                         <h3> Holography </h3>                </li>
+                     <li>
+                         <h3> Image Processing </h3>                </li>
+                     <li>
+                         <h3> Natural Language Processing </h3>                </li>
+                     </ul>
+                     <h2 align="center"><i><a name="rules">RULES</a></i></h2>
+                     <br>
+				<p align="center"><b>Before the Event</b></p>
+                     <ol>
+                         <li> The abstract has to be submitted first based on the topics given above for review. </li>
+                         <li> The abstract should be a passage describing about what the innovation is all about. </li>
+                         <li> The diagrams are optional at Abstract level and can included at your own interest. </li>
+                         <li> Best practice would be to limit the count of number of words in abstract to 500 words. </li>
+                         <li> The results of the Abstract round will be announced two days from the last date of submitting the abstract. </li>
+                         <li> The selected batches will have to finish a full paper of their idea within the due date mentioned in IEEE format not exceeding 6 columns. </li>
+                         <li> Any discrepancy from the original idea in the abstract and plagiarism shall not be entertained. </li> 
+                         </ol>
+                     <br>
+                     <br>
+                     <p align="center"><b>During the Event</b></p>
+                         <ol>
+                         <li> The selected students should present their paper in front of a jury panel.
+                         <li> The students are requested to prepare a presentation in slides not exceeding more than 10. </li>
+                         <li> The presentation and the soft copy can be brought in a pen-drive. </li>
+                         <li> The selected participants are requested to bring 3 hard-copies of their full papers at the day of the event. </li>
+                         <li> You will be given 5 minutes to pitch in your idea followed by a 2 minute question and answer session from the jury panel </li>
+                         <li> The decision of the jury panel is final. </li>
+                         <li> The best 3 papers of the day will be up for the final honours. </li>
+                         </ol>
+                         <br>
+                         <br>
+                     <p align="center"><b>Submission details</b></p>
+                         <ol>
+                             <li> All submissions related to abstract or paper or any related queries can be mailed to cynapse2k15@rmkec.ac.in </li>
+                             <li> During submission of Abstract, the subject should be "Submission of paper_name regarding" and the regards section should contain the name of the team and the team members. </li>
+                             <li> During submission of Paper, the subject should be "Submission of paper_name regarding" and the regards section should contain the name of the team and the team members which was given during Abstract submission. </li>
+                             <li> The abstract and the paper can be mailed in .doc or .docx or .pdf format. .pdf format is more preferable </li>
+</ol>
+                     <br>
+                     <br>
+                     <p align="center"><b> Important Dates</b></p>
+                     <p align="justify"> Last date to submit abstract is 15<sup>th</sup> of August 2015 and the last date to submit the full paper will be intimated soon. </p>      
+                                         
+                     <h2 align="center"><i><a name="team">THE TEAM</a></i></h2>
+                     <p align="justify">To be decided soon.</p>
+
+			</div><!-- end content -->
+		</section>
+	</section><!-- end main -->
+	
+</body>
+</html>

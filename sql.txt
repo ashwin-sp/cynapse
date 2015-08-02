@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Code</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Ashwin">
+	<meta name="description" content="Details about the coding contest"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/codecss.css">
+      <link rel="stylesheet" href="stylesheets/ca.css">
+      <link rel="stylesheet" href="stylesheets/responsive.css">
+      
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+		</div><!-- end logo -->
+		<div id="menu_icon"></div>
+		<nav>
+			<ul class="ca-menu1">
+				<li class="ca-main1"><a href="Mainpage.html">Home</a></li>
+				<li><a href="#platform">Platform</a></li>
+				<li><a href="#rules">Rules</a></li>
+				<li><a href="#team">The Team</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav><!-- end navigation menu -->
+
+		<div class="footer clearfix">
+						<div class="rights">
+				<p>Copyright© Cynapse 2k15.</p>
+				
+			</div><!-- end rights -->
+		</div ><!-- end footer -->
+	</header><!-- end header -->
+
+	<section class="main clearfix">
+
+		<section class="top">	
+			<div class="wrapper content_header clearfix">
+				<div class="work_nav">
+							
+					<ul class="btn clearfix">
+						<li><a href="#" class="previous" data-title="Previous"></a></li>
+						<li><a href="Mainpage.html" class="grid" data-title="Portfolio"></a></li>
+						<li><a href="#" class="next" data-title="Next"></a></li>
+					</ul>							
+					
+				</div><!-- end work_nav -->
+				<h1 class="title"> SQL Master</h1>
+			</div>		
+		</section><!-- end top -->
+
+		<section class="wrapper">
+			<div class="content">
+                     <h2><i> SELECT sql_master FROM cynapse2k15 WHERE sql="MUST";
+                            </i></h2>
+				<p align="justify">This event is a new addition this time around keeping in mind all the SQL lovers who missed out the real fun last time around. It&apos;s about how efficient we play with data to do all kinds of magic with it. People can gloat about the functions or operations they can do but it is how effectively they enter, manipulate and save a data on a given day that matters. Because more than the operations, the data comes first. </p>
+		
+				<p align="justify">The one who selects, inserts, updates and deletes data, creates, alters, drops and truncates the table, grants and revokes permission, commits, rollbacks and saves his transaction better on that given day will emerge as the SQL Master </p>
+
+				<h2 align="center"><i><a name="platform">SUPPORTED DATABASES</a></i></h2>
+				<p align="justify">Any one of these following databases can be used to play with the data</p>
+                     <ul>               
+                     <li>
+                         <h3> Oracle </h3>                </li>
+                     <li>
+                         <h3> MySQL</h3>                </li>
+                     </ul>
+                     <h2 align="center"><i><a name="rules">RULES</a></i></h2>
+                   
+                     <ol>
+                         <li> It is a two round on spot event.</li>
+                         <li> The first round is an online test which consists of a couple of Multiple Choice Questions on Database Management System basics.</li> 
+                         <li> Then you will be served up with SQL codes for which you need to predict the output.  </li>
+                         <li> The best few who do well in the above two phases will be able to continue their adventure to round 2. </li>
+                         <li> The round 2, which is the final round, is where you will be given a set of tasks which requires you to bring your SQL knowledge to the fore. </li>
+                         <li> You will be given a set of tasks for which you would be required to write the SQL code and arrive at the output for each cases </li>
+                         <li> In case of a tie, a tie breaker task will also be served up. </li>
+                         <li> The top 3 teams or individual who solve the maximum number of cases will be declared the winners of the event and the team or the individual coming first in this event is declared the SQL master(s). </li>
+                    </ol>      
+                                         
+                     <h2 align="center"><i><a name="team">THE TEAM</a></i></h2>
+                     <p align="justify">To be decided soon.</p>
+
+			</div><!-- end content -->
+		</section>
+	</section><!-- end main -->
+	
+</body>
+</html>
